@@ -1,5 +1,5 @@
 
 
 module.exports = {
-    ConnectionString: DATABASE_URL
+    ConnectionString: process.env.DATABASE_URL
 };
